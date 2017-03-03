@@ -1,5 +1,5 @@
 CC = g++ 
-FLAGS = -Wall -O3 -std=c++11 -I.
+FLAGS = -Wall -O3 -std=c++11 -DNDEBUG -I.
 FLOBJ = $(FLAGS) -c
 FLEXE = $(FLAGS) -o $@ $^
 
